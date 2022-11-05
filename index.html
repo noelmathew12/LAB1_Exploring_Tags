@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<head>
+<!--Head is a container for metadata. Metadata is data about the HTML document-->
+
+    <title>
+        Exploring HTML Tags
+    </title>
+
+
+    <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <h1>
+        <center>
+            <u>
+                LAB 1- Exploring tags in HTML
+            </u>
+        </center>
+    </h1>
+
+    <h4>
+        The different heading tags available are shown below H1 to H6.
+    </h4>
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6>
+
+    <br><br>
+    <p>
+        Paragraph tag- This is a paragraph made using the Paragraph Tag
+    </p>
+
+    <p>
+        Bold Tag- 
+        <b>
+            It is used to change the text to bold.
+        </b>
+    </p>
+
+    <p>
+        Strong Tag- 
+        <strong>
+            Strong Tag defines important text
+        </strong>
+    </p>
+
+
+    <p>
+        Superscript Tag- 
+        <sup>
+            It is used to Superscript the specified text
+        </sup>
+    </p>    
+
+    <p>
+        Subscript Tag-
+        <sub>
+            It is used to Subscript the specified text
+        </sub>
+    </p>  
+    
+    <p>
+        I tag- It is used to 
+        <i>
+            italize
+        </i>
+        the content inside the tag
+    </p>
+
+    <p>
+        Mark Tag- It is used to 
+        <mark>
+            highlight or mark
+        </mark>
+        important text.
+    </p>
+
+    <p>
+        Del Tag- It is used to define
+        <del>
+            deleted
+        </del>
+        text.
+    </p>
+
+    <p>
+        S Tag- It is used to mark up text
+        <s>
+            that is no longer correct
+        </s>
+    </p>
+
+    <details>
+        <summary>Details and Summary Tag</summary>
+        <p>
+            The "details" tag specifies additional details that the user can open and close on demand.
+            The "summary tag" defines a visible heading for the "details" element. The heading can be clicked to view/hide the details.
+        </p>
+
+    </details>
+
+    <p>
+        Ordered Lists- The "ol" tag defines an ordered list. An ordered list can be numerical or alphabetical.
+        <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+    </p>
+
+    <p>
+        Unordered Lists- The "ul" tag defines an unordered list. An unordered list is usually in bullets.
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+    </p>
+
+    <p>
+        Preformatted Text-
+        <pre>
+            Text in a pre element
+            is displayed in a fixed-width
+            font, and it preserves
+            both      spaces and
+            line breaks
+        </pre>
+    </p>
+
+    <p>
+        q Tag- It is used to 
+        <q>
+            insert quotation marks.
+        </q>
+    </p>
+
+    <p>
+        Samp Tag- It is used to define sample output from a computer program.<br>
+        <samp>
+            The content inside is displayed in the browser's default monospace font.
+        </samp>
+    </p>
+
+    <p>
+        Span Tag- It is an inline container used to
+        <span style="color: blue;">
+            mark up
+        </span>
+        a part of the text.
+    </p>
+    <br><br>
+
+    <h2>HTML Forms</h2>
+    
+    <h5>An HTML form is used to collect user input. The user input is most often sent to a server for processing.</h5>
+    
+    <form>
+        <label for="fname">
+            First name:
+        </label>
+        
+        <br>
+        
+        <input type="text" id="fname" name="fname">
+        
+        <br>
+        
+        <label for="lname">
+            Last name:
+        </label>
+        
+        <br>
+        
+        <input type="text" id="lname" name="lname">
+        
+        <br>
+        
+        <br>
+        
+        <input type="submit" value="Submit">
+    
+    </form> 
+
+    <br>
+    <br>
+
+
+    <h4>
+        The progress tag represents the completion progress of a task.
+        <br><br>
+        <progress id="file" value="32" max="100">
+            32%
+        </progress>
+    </h4>
+
+    <br>
+    <br>
+
+    <h4>
+        The select element is used to create a drop-down list and is most often used in a form, to collect user input.
+        <br><br>
+        <select name="cars" id="cars" >
+            <option value="none" selected disabled hidden>Select a Car</option>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+    </h4>
+
+    <br>
+    <br>
+    <h4>
+        The table tag defines an HTML table.An HTML table consists of one or more "tr", "th" and "td" elements.
+    </h4>
+
+    <table>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+        <tr>
+          <td>January</td>
+          <td>Rs.1000</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>Rs.500</td>
+        </tr>
+        <tr>
+            <td>March</td>
+            <td>Rs. 1500</td>
+        </tr>
+    </table>
+
+    <br><br>
+    <h4>
+        The button tag defines a clickable button.
+    </h4>
+
+    <button type="button">
+        Click Me!
+    </button>
+
+    <br><br>
+
+    <h4>
+        The hr element is most often displayed as a horizontal rule that is used to separate content (or define a change) in an HTML page.
+    </h4>
+    <hr>
+
+
+
+    <br>
+    <br>
+    <h4>
+        The footer tag defines a footer for a document or section.
+    </h4>
+    <footer>
+        <p>Author: Noel Mathew Thomas<br>
+        <a href="mailto:noelmathew8539@gmail.com">noelmathew8539@gmail.com</a></p>
+    </footer>
+    
+
+</body>
+</html>
